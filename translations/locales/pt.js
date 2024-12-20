@@ -1,7 +1,7 @@
 import { en } from "./en.js";
 export const pt = {
     ...en,
-    "productName": "Lowcoder",
+    "productName": "MS-CONSULTORIA",
     "productDesc": "Crie aplicações de software para sua empresa e clientes com pouquíssima experiência de programação. Lowcoder é uma excelente alternativa para Retool, Appsmith e Tooljet.",
     "notSupportedBrowser": "Seu navegador atual pode ter problemas de compatibilidade. Para uma experiência melhor, por favor, utilize a última versão do Chrome.",
     "create": "Crie",
