@@ -343,7 +343,8 @@ function HeaderProfile(props: { user: User }) {
   );
 }
 
-const setCountdown = () => dayjs().add(10, 'seconds').toISOString();
+const setCountdown = () => dayjs().add(3, 'minutes').toISOString();
+
 
 export type PanelStatus = { left: boolean; bottom: boolean; right: boolean };
 export type TogglePanel = (panel?: keyof PanelStatus) => void;
